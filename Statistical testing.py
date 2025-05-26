@@ -7,7 +7,7 @@ import statsmodels.stats.api as sms
 from statsmodels.stats.contingency_tables import mcnemar
 
 # Importing data
-df = pd.read_csv('your_path.csv')
+df = pd.read_csv('data.csv')
 
 # Separate categorical and continuous columns
 categorical_cols = ['gender', 'ams', 'hematemesis', 'melena', 'malignancy', 'metastatic_malignancy', 'liver_disease', 'acute_mi', 'chf']
